@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "YouTube API v2",
+  "description": "This extension demonstrates the YouTube API v2.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": "script-src 'self' https://gdata.youtube.com; object-src 'self'"
+}
